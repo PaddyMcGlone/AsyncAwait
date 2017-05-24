@@ -1,0 +1,20 @@
+﻿@model AsyncAndAwaitMVCProject.Models.HomePageModel
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>ASP.NET Sucks!</h1>
+    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<ul>
+    @foreach(var mystring in @Model.Message)
+    {
+        <li>
+            @mystring
+        </li>    
+    }
+    
+</ul>

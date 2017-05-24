@@ -4,3 +4,9 @@ C:\Code\Pluralsight Exercises\MVC 4 Fundamentals\AsyncAndAwait - PMG\AsyncAndAwa
 C:\Code\Pluralsight Exercises\MVC 4 Fundamentals\AsyncAndAwait - PMG\AsyncAndAwaitConsole\AsyncAndAwaitConsole\obj\Debug\AsyncAndAwaitConsole.csprojResolveAssemblyReference.cache
 C:\Code\Pluralsight Exercises\MVC 4 Fundamentals\AsyncAndAwait - PMG\AsyncAndAwaitConsole\AsyncAndAwaitConsole\obj\Debug\AsyncAndAwaitConsole.exe
 C:\Code\Pluralsight Exercises\MVC 4 Fundamentals\AsyncAndAwait - PMG\AsyncAndAwaitConsole\AsyncAndAwaitConsole\obj\Debug\AsyncAndAwaitConsole.pdb
+C:\Code\Pluralsight Exercises\MVC 4 Fundamentals\AsyncAndAwait - PMG\AsyncAwait\AsyncAndAwaitConsole\bin\Debug\AsyncAndAwaitConsole.exe.config
+C:\Code\Pluralsight Exercises\MVC 4 Fundamentals\AsyncAndAwait - PMG\AsyncAwait\AsyncAndAwaitConsole\bin\Debug\AsyncAndAwaitConsole.exe
+C:\Code\Pluralsight Exercises\MVC 4 Fundamentals\AsyncAndAwait - PMG\AsyncAwait\AsyncAndAwaitConsole\bin\Debug\AsyncAndAwaitConsole.pdb
+C:\Code\Pluralsight Exercises\MVC 4 Fundamentals\AsyncAndAwait - PMG\AsyncAwait\AsyncAndAwaitConsole\obj\Debug\AsyncAndAwaitConsole.csprojResolveAssemblyReference.cache
+C:\Code\Pluralsight Exercises\MVC 4 Fundamentals\AsyncAndAwait - PMG\AsyncAwait\AsyncAndAwaitConsole\obj\Debug\AsyncAndAwaitConsole.exe
+C:\Code\Pluralsight Exercises\MVC 4 Fundamentals\AsyncAndAwait - PMG\AsyncAwait\AsyncAndAwaitConsole\obj\Debug\AsyncAndAwaitConsole.pdb
