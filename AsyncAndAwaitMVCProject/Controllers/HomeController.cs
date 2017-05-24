@@ -10,6 +10,7 @@ namespace AsyncAndAwaitMVCProject.Controllers
 {
     public class HomeController : Controller
     {
+        [AsyncTimeout(1200)]
         public async Task<ActionResult> Index()
         {
             var model = new HomePageModel();
