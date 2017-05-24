@@ -14,6 +14,7 @@ namespace AsyncAndAwaitConsole
                 Console.WriteLine(i);
             }
 
+            // If task hasnt completed .Result, will block program until it completes.
             Console.WriteLine($"Slow operation result {task.Result}");
             Console.WriteLine($"Main completed on thread: {Thread.CurrentThread.ManagedThreadId}");
         }
