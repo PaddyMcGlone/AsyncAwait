@@ -10,13 +10,26 @@ namespace AsyncAndAwaitMVCProject.Controllers
 {
     public class HomeController : Controller
     {
-        [AsyncTimeout(1200)]
+        
+        [AsyncTimeout(1200)] //A Timeout annotation for methods, sets timeout limit
+        // Annotation below is used to display special views on screen - instead of default custom error pages
+        //I love this annotation
+        [HandleError(ExceptionType = typeof(TimeoutException), View = "MySpecialTimeoutErrorView")]
         public async Task<ActionResult> Index()
         {
             var model = new HomePageModel();
             model.Message.Add($"Starting Action now: {DateTime.Now}");
-            await GetAsyncHeadLines();
-            await GetAsyncWeather();
+            try
+            {
+                await GetAsyncHeadLines();
+                await GetAsyncWeather();
+            }
+            catch(Exception exception)
+            {
+                Console.WriteLine($"There has been an error: {exception.Message}");
+                Console.WriteLine($"Inner exception: {exception.InnerException}");
+            }
+            
             model.Message.Add($"Completing Action now: {DateTime.Now}");
             return View(model);
         }
